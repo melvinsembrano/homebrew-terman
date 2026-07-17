@@ -1,7 +1,7 @@
 class Terman < Formula
   desc "Terminal API Client: TUI and CLI for building and running HTTP requests"
   homepage "https://github.com/melvinsembrano/terman"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
