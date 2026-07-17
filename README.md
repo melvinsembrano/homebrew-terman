@@ -9,6 +9,7 @@ Homebrew tap for [terman](https://github.com/melvinsembrano/terman) — a Termin
 
 ```sh
 brew tap melvinsembrano/terman
+brew trust melvinsembrano/terman
 brew install terman
 ```
 
