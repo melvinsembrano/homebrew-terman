@@ -1,28 +1,28 @@
 class Terman < Formula
   desc "Terminal API Client: TUI and CLI for building and running HTTP requests"
   homepage "https://github.com/melvinsembrano/terman"
-  version "0.6.3"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/melvinsembrano/terman/releases/download/v#{version}/terman-#{version}-darwin-amd64.tar.gz"
-      sha256 "53c3ccda0a2565b98fd55a0c8099c3f8ca852282d3924e56bbf615a94191b681"
+      sha256 "45e75d868f1001b75e35c2ec7803327546faf6b01dd239b5a624e2b1886b97e2"
     end
     on_arm do
       url "https://github.com/melvinsembrano/terman/releases/download/v#{version}/terman-#{version}-darwin-arm64.tar.gz"
-      sha256 "acfba1ac95b64365c9a53d80d1dacd33f78834202cf3fdf462cac25b85cbb31c"
+      sha256 "afa87759a98a13daf59e61e9178d6bec48354e4f198c9c17951e064d27c4bd0d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/melvinsembrano/terman/releases/download/v#{version}/terman-#{version}-linux-amd64.tar.gz"
-      sha256 "78d4a4d2782bd1253223fb3639d82f990ce9c1537853a3c1d391438da4ec5f29"
+      sha256 "cab9bc693534e7badaac47c0013567d2030bc5dbdbfa0eb3f88f85bef54685fa"
     end
     on_arm do
       url "https://github.com/melvinsembrano/terman/releases/download/v#{version}/terman-#{version}-linux-arm64.tar.gz"
-      sha256 "d207c65fa1ebbe7ec49417ea02c501527b26d6e8723235ed21f140cda4f92cf6"
+      sha256 "978f1a868696825669d1f110a6fe9dac993f881395b36191115df4c996d8e42e"
     end
   end
 
